@@ -1,0 +1,38 @@
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+li {
+    padding: 25px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid #8d8d8d;
+    border-radius: 15px;
+    background-color: #f7f7f7;
+    list-style: none;
+}
+
+.icon {
+    width: 286px;
+    height: 375px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    display: block;
+    background: url(sprite.png);
+    background-repeat: no-repeat;
+}
+
+/* Positionnement de chaque icône */
+.i-html {
+    background-position: 0, 0;
+}
+
+.i-css {
+    background-position: -290px, 0;
+}
+
+.i-js {
+    background-position: -580px, 0;
+}
